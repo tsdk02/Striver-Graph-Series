@@ -3,7 +3,8 @@ using namespace std;
 
 class Solution {
    private:
-    void bfs(int row, int col, vector<vector<int>>& vis, vector<vector<char>>& grid) {
+    void bfs(int row, int col, vector<vector<int>>& vis,
+             vector<vector<char>>& grid) {
         // mark it visited
         vis[row][col] = 1;
         queue<pair<int, int>> q;
